@@ -24,7 +24,7 @@ function buildSmartContractTransaction(txnCount,contractData){
     return txObject = {
         nonce: web3.utils.toHex(txnCount),
         gasPrice: web3.utils.toHex(0),
-        gasLimit: web3.utils.toHex(1000000),
+        gasLimit: web3.utils.toHex(20000000),
         data
     }
 }
